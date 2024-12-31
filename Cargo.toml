@@ -1,0 +1,13 @@
+[package]
+name = "minigrep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+futures = "0.3"
+clap = "4.5.23"
+regex = '1.11.1'
+
+[dependencies.async-std]
+version = "1.6"
+features = ["attributes"]
